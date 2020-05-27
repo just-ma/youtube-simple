@@ -1,0 +1,12 @@
+{
+  "name": "youtube-simple",
+  "version": "1.0",
+  "description": "A simpler homepage for YoutTube",
+  "manifest_version": 2,
+  "content_scripts": [
+    {
+      "matches": ["*://www.youtube.com/"],
+      "js": ["contentScript.js"]
+    }
+  ]
+}
